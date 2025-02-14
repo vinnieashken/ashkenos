@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "memory.h": "c",
+        "vga.h": "c",
+        "klib.h": "c",
+        "cpu.h": "c"
+    }
+}

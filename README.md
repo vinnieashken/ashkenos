@@ -20,7 +20,7 @@ The kernel follows a monolithic design with modular components for different sub
 
 ## Development Setup
 ### Requirements
-- **Compiler**: GCC (cross-compiled for x86-elf)
+- **Compiler**: GCC (cross-compiled for x86-elf)  [download](https://sourceforge.net/projects/crossgcc/)
 - **Assembler**: NASM for bootloader and low-level assembly routines
 - **Linker**: GNU LD with a custom linker script
 - **Emulator**: QEMU for testing

@@ -1,4 +1,4 @@
-# My Hobby Operating System Kernel
+# Ashken Operating System Kernel
 
 ## Introduction
 This is a hobbyist operating system kernel designed for the Intel/AMD x86-32 architecture. It is built from scratch to explore low-level system programming concepts, including bootstrapping, memory management, multitasking, and hardware interaction. The goal of this project is to learn and experiment with OS development while gradually adding new features.
@@ -28,14 +28,18 @@ The kernel follows a monolithic design with modular components for different sub
 ### Building and Running
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-hobby-os.git
-   cd your-hobby-os
+   git clone https://github.com/vinnieashken/ashkenos.git
+   cd ashkenos
    ```
-2. Build the kernel:
+2. Clean the project:
+   ```sh
+   make clean
+   ```   
+3. Build the kernel:
    ```sh
    make
    ```
-3. Run using QEMU:
+4. Run using QEMU:
    ```sh
    make run
    ```
@@ -44,7 +48,8 @@ The kernel follows a monolithic design with modular components for different sub
 - [x] Basic bootloader
 - [x] Entering protected mode
 - [x] Basic VGA text output
-- [ ] Memory management improvements
+- [x] Basic Keyboard driver
+- [x] Memory management 
 - [ ] Interrupt handling refinements
 - [ ] Multitasking implementation
 - [ ] User-mode support
